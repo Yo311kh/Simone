@@ -1,0 +1,25 @@
+@media screen and (max-width:992px)
+{
+
+    .heading-of-sections h2
+    {
+        font-size: 5rem;
+    }
+    .heading-of-sections p
+    {
+        font-size: 1.8rem;
+    }
+    .grid
+    {
+        border: unset;
+    }
+    .item-caption
+    {
+        display: none;
+    }
+    .item-show
+    {
+        display: block;
+    }
+    
+}

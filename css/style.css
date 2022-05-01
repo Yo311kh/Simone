@@ -1,0 +1,621 @@
+.main-bg-color
+{
+    background-color: #20c997;
+}
+.bg-color
+{
+    background-color: #20c997 !important;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    color: #4c4d4d; 
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6
+{
+color: #252b33;
+
+}
+p
+{
+    line-height: 1.8;
+}
+.fw-600
+{
+    font-weight: 600;
+}
+.text-dark
+{
+    color: #212529 !important ;
+}
+#home .home-image
+{
+    height: 100vh;
+    background-image: url(../image/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center 0%;
+   
+}
+.home-layer
+{
+background-color: rgba( 11,14,18,0.8);
+}
+nav
+{
+    background-color: #000000;
+    z-index: 100000;
+}
+.nav-link 
+{
+    color:#e3e3e3 !important ;
+    font-size: 0.95rem ;
+    font-weight: 600;
+    padding: 15px;
+    margin: 2px 10px;
+    transition: color 0.3s;
+}
+.main-color
+{
+    color: #20c997 !important ;
+     
+}
+.nav-link:hover
+{
+    color: #20c997 !important;
+}
+.home-content h3
+{
+    font-size: 2.3rem;
+   padding: 20px 15px;
+   color: #fff;
+}
+.home-content
+{
+    overflow: hidden;
+}
+.home-content h1
+{
+    font-size: 4rem;
+    color: #fff;
+  
+}
+#home  h1:after
+{
+    content: "";
+    
+     animation-name: home-animation;
+  
+     animation-duration: 20s;
+   
+    animation-iteration-count: infinite;
+    
+    animation-direction: alternate;
+    text-align: center;
+    
+    padding: 15px 10px;
+
+}
+@keyframes home-animation {
+    0%{content: " "}
+   
+   0.8%  {content:""}
+   1.6% {content:"I|"}
+   2.4% {content:"I'|"}
+  3.2%  {content:"I'm|"}
+    4%{content:"I'm |"}
+   4.8% {content:"I'm S|"}
+   5.6% {content:"I'm Si|"}
+   6.4% {content:"I'm Sim|"}
+   7.2% {content:"I'm Simo|"}
+   8% {content:"I'm Simon|"}
+   8.8%  {content:"I'm Simone|"}
+   9.6% {content:"I'm Simone |"}
+   10.4% {content:"I'm Simone O|"}
+   11.2% {content:"I'm Simone Ol|"}
+   12%  {content:"I'm Simone Oli|"}
+   12.8%{content:"I'm Simone Oliv|"}
+   13.6%{content:"I'm Simone Olivi|"}
+   14.4% {content:"I'm Simone Olivia |"}
+   15.2% {content:"I'm Simone Olivia  "}
+   16%   {content:"I'm Simone Olivia |"}
+   16.8% {content:"I'm Simone Olivia  "}
+  17.6%  {content:"I'm Simone Olivia |"}
+   18.2% {content:"I'm Simone Olivia |"}
+   19% {content:"I'm Simone Olivi|"}
+   19.8% {content:"I'm Simone Olivi|"}
+   20.6% {content:"I'm Simone Oliv|"}
+   21.4% {content:"I'm Simone Oli|"}
+   22.2%  {content:"I'm Simone Ol|"}
+   23.2% {content:"I'm Simone O|"}
+   24% {content:"I'm Simone O|"}
+   24.8% {content:"I'm Simone |"}
+   25.6% {content:"I'm Simone|"}
+   26.4% {content:"I'm Simon|"}
+   27.2% {content:"I'm Simo|"}
+   28% {content:"I'm Sim|"}
+   28.8% {content:"I'm Si|"}
+   29.6% {content:"I'm S|"}
+   30.4%{content:"I'm |"}
+   31.2% {content:"I'm "}
+   32% {content:"I'm a|"}
+    32.8%{content:"I'm a |"}
+    33.6%{content:"I'm a F|"}
+    34.4% {content:"I'm a Fr|"}
+    35.2% {content:"I'm a Fre|"}
+    36%{content:"I'm a Frel|"}
+    36.8% {content:"I'm a Frela|"}
+    37.6%{content:"I'm a Frelan|"}
+    38.4%{content:"I'm a Frelanc|"}
+    39.2%{content:"I'm a Frelance|"}
+    40% {content:"I'm a Frelancer|"}
+    40.8%{content:"I'm a Frelancer.|"}
+    41.6%{content:"I'm a Frelancer."}
+    42.4%{content:"I'm a Frelancer.|"}
+    43.2%{content:"I'm a Frelancer. "}
+    44%  {content:"I'm a Frelancer.|"}
+    44.8%{content:"I'm a Frelancer. "}
+    45.6%{content:"I'm a Frelancer.|"}
+    46.4% {content:"I'm a Frelance|"}
+    47.2%{content:"I'm a Frelanc|"}
+    48% {content:"I'm a Frelan|"}
+    48.8%{content:"I'm a Frela|"}
+    50.6% {content:"I'm a Frel|"}
+    51.4%{content:"I'm a Fre|"}
+    52.2% {content:"I'm a Fr|"}
+    53%{content:"I'm a F|"}
+    53.8%{content:"I'm a|"}
+    54.6%{content:"I'm a |"}
+    55.4% {content:"I'm a P|"}
+    56.2%{content:"I'm a Ph|"}
+    57% {content:"I'm a Pho|"}
+    57.8%{content:"I'm a Phot|"}
+    58.6%{content:"I'm a Photo|"}
+    59.4%{content:"I'm a Photog|"}
+    60.2%{content:"I'm a Photogr|"}
+    61.8%{content:"I'm a Photograp|"}
+    62.6%{content:"I'm a Photograph|"}
+    63.4%{content:"I'm a Photographe|"}
+    64.2%{content:"I'm a Photographer|"}
+    65%  {content:"I'm a Photographer.|"}
+    65.8%{content:"I'm a Photographer. "}
+    66.6%{content:"I'm a Photographer.|"}
+    67.4%{content:"I'm a Photographer. "}
+    68.2%{content:"I'm a Photographer.|"}
+    69%{content:"I'm a Photographe|"}
+    69.8%{content:"I'm a Photograph|"}
+    70.6%{content:"I'm a Photograp|"}
+    71.4%{content:"I'm a Photogra|"}
+    72.2%{content:"I'm a Photogr|"}
+    73%{content:"I'm a Photog|"}
+    73.8%{content:"I'm a Photo|"}
+    74.6%{content:"I'm a Phot|"}
+    75.4%{content:"I'm a Pho|"}
+    76.2%{content:"I'm a Ph|"}
+    77%{content:"I'm a P|"}
+    77.8%{content:"I'm a |"}
+    78.6%{content:"I'm a |"}
+    79.4%{content:"I'm a D|"}
+    80.2%{content:"I'm a De|"}
+    81%{content:"I'm a Des|"}
+    81.8%{content:"I'm a Desi|"}
+    82.6%{content:"I'm a Desig|"}
+    83.4%{content:"I'm a Design|"}
+    84.2%{content:"I'm a Designe|"}
+    85%{content:"I'm a Designer.|"}
+    85.8%{content:"I'm a Designer."}
+    86.6%{content:"I'm a Designer.|"}
+    86.4%{content:"I'm a Designer."}
+    87.2%{content:"I'm a Designer.|"}
+    88%  {content:"I'm a Designer. "}
+    88.8%{content:"I'm a Designer.|"}
+    89.6%{content:"I'm a Designer. |"}
+    90.4%{content:"I'm a Designe|"}
+    91%{content:"I'm a Design|"}
+    91.3%{content:"I'm a Desig|"}
+    91.8%{content:"I'm a Desig|"}
+    92.3%{content:"I'm a Desi|"}
+    93%{content:"I'm a Des|"}
+    93.4%{content:"I'm a De|"}
+    93.8%{content:"I'm a D|"}
+    94.2%{content:"I'm a|"}
+    94.6%{content:"I'm |"}
+    95%{content:"I'm|"}
+    95.5%{content:"I'|"}
+    96%{content:"I"}
+    98%{content:""}
+    100%{content:""}
+     
+
+}
+.home-content p{
+    font-size: 1.5rem;
+    margin: 15px 0px;
+}
+.home-content .btn
+{
+    margin-top: 15px;
+    border: 2.5px solid #20c997;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+   
+}
+
+.setting-icon
+{
+    position: fixed;
+    top: 35%;
+    right: 0%;
+    padding: 10px;
+    background-color: #555555;
+    font-size: 1.3rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+
+}
+.up-icon 
+{
+    position: fixed;
+    bottom:8px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    transition: background-color 0.6s;
+}
+.up-icon a{
+    color: #fff;
+}
+.up-icon:hover 
+{
+    background-color: #20c997;
+}
+
+
+/* -------------- About Css Code ------------------ */
+
+.heading-of-sections h2
+{
+    font-size: 7.9rem;
+    font-weight: 600;
+    color: #dee3e4 ;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading-of-sections div
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.heading-of-sections p
+{
+    font-size:2.3rem;
+    color: #212529;
+    font-weight: 600;
+    position: relative;
+
+    padding: 10px;
+}
+.heading-of-sections p::after
+{
+    content: "";
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    width: 6rem ;
+    height: 3px;
+    background-color: #20c997;
+    transform: translate(-50%,-50%);
+}
+#about .about-content-left h3
+{
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+#about .about-content-left p
+{
+   font-size: 18px;
+   font-weight: 300;
+    line-height: 1.8;
+}
+#about .about-content-right h4
+{
+   font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 2px;
+    border-bottom: 1px solid #eaeaea;
+    color: #4c5358;
+}
+#about .about-content-right span
+{
+     font-size: 17px;
+    font-weight: 300;
+    color: #636386;
+
+}
+#about .about-content-right a
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#about .about-content-right  .btn
+{
+    margin: 5px 0px;
+    padding: 12px 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    transition: box-shadow 0.5s;
+
+}
+#about .about-content-right  .btn:hover
+{
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
+}
+.border-none
+{
+    border: none !important;
+}
+.grid 
+{ 
+
+    border-left: 1px dotted #e0dede;
+     position: relative;
+     
+}
+
+
+    
+.about-footer h4
+{
+    font-size: 3rem;
+   
+}
+.about-footer p
+{ 
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4c4d4d;
+}
+/* Services Css Code  */
+.service-content  i
+{
+    padding: 15px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+
+}
+.service-content h4
+{
+    font-size: 1.3rem;
+    color: #252b33;
+    
+}
+.service-content p
+{
+    font-size: 1.1rem;
+
+}
+/* --------------Resume CSS Code ------------------ */
+.resume-content span
+{
+    font-weight: 400;
+ border-radius: 0.25rem;
+ padding: 5px 5px;
+  color: #fff;
+}
+.resume-content
+{
+  
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.resume-content h4
+{
+    margin-top: 10px;
+}
+
+
+#resume h3
+{
+    font-size: 1.5rem;
+
+}
+#resume .progress-sm
+{
+    height: 0.5rem !important;
+}
+.progress-sm
+{
+    display: flex;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+.skills p ,span
+{
+    font-size: 18px;
+
+}
+.progress-bar 
+{
+    background-color: #20c997 !important;
+
+}#resume a
+{
+    text-decoration: none;
+    color: #4c4d4d;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+#resume .btn
+{
+    border: 2px solid #4c4d4d;
+         position: relative;
+         left: 50%;
+         transform: translatex(-50%);
+     transition: background-color 0.4s ;
+}
+#resume .btn:hover 
+{
+    background-color: #4c4d4d;
+
+}
+#resume .btn:hover a
+{
+     color: #fff;
+}
+/* ------------------ */
+.nav-tabs
+{
+    border-bottom: unset;
+}
+.nav-tabs .nav-link
+{
+    border: unset;
+    background-color: unset ;
+}
+
+#work .nav-link
+{
+    color: #3e3f3f !important;
+}
+#work .nav-link:hover
+{
+    color: #20c997 !important;
+}
+#work .nav-tabs .nav-item.show .nav-link, #work  .nav-tabs .nav-link.active
+{
+    background-color: unset;
+    color: #20c997 !important;
+    border-bottom:2px solid #20c997;
+
+}
+.my-work
+{
+    position: relative;
+    overflow: hidden;
+}
+ .my-work .layer
+ {
+     background-color: rgba(0,0,0,0.8);
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     bottom: 0px;
+     right: 0px;
+     opacity: 0;
+     transition: opacity 0.5s ;
+     color: #fff ;
+     
+ }
+ .my-work:hover .layer
+ {
+     opacity: 1;
+ }
+ .my-work img
+ {
+     transition: transform 0.5s ease;
+ }
+ .my-work:hover img
+ {
+     transform: scale(1.1,1.1);
+    
+ }
+ /* -------------------------------------------- */
+ .client img
+ {
+     width: 20%;
+ }
+ .carousel-indicators
+ {
+     position: unset !important;
+     bottom: unset !important;
+    
+ }
+ #testimonial .item  h4
+ {
+     font-size: 17px;
+     margin-bottom: 5px !important;
+     color: #000000 !important;
+ }
+ #testimonial .item  span
+ {
+     font-size: 1.1rem ;
+     font-weight:500;
+ }
+ #testimonial .item p
+ {
+     color: #000000;
+ }
+ .item-show
+ {
+     display: none;
+ }
+
+ .contact-info p
+ {
+    padding-right: 4.75rem;
+ }
+
+ .contact-info h4
+ {
+     font-size: 1.2rem;
+     font-weight: 600;
+ }
+.contact-icon i
+{
+    padding: 5px;
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #20c997;
+}
+.contact-icon span
+{
+    font-size: 1rem;
+}
+#contact form button
+{
+    padding: 12px 30px ;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-bottom: 10px;
+
+}
+span
+{
+    transition:color 0.5s ;
+    font-size: 1rem;
+}
+footer span:hover 
+{
+    color: #20c997;
+    cursor: pointer;
+}
